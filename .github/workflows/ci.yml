@@ -31,4 +31,4 @@ jobs:
       # 4. Corre Notebook
       - name: Run notebook with Papermill
         run: |
-          papermill notebooks/RETO_RAG.ipynb outputs/output.ipynb
+          papermill RETO_RAG.ipynb outputs/output.ipynb
